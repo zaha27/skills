@@ -22,6 +22,8 @@ On my Mac, [dotfiles](https://github.com/zaha27/dotfiles)' `install.sh` does thi
 
 ## Skills
 
+How to use them day to day: **[docs/GUIDE.md](docs/GUIDE.md)**.
+
 ### `zaha` plugin
 
 Project workflow, all user-invoked (`/<name>` or `/zaha:<name>`; `bug` and `recap` clash with built-in commands, so call them as `/zaha:bug` and `/zaha:recap`), sharing `docs/ROADMAP.md`, `docs/BUGS.md`, `docs/HISTORY.md` in each project:
