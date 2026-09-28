@@ -24,7 +24,7 @@ On my Mac, [dotfiles](https://github.com/zaha27/dotfiles)' `install.sh` does thi
 
 ### `zaha` plugin
 
-Project workflow, all user-invoked (`/zaha:<name>`), sharing `docs/ROADMAP.md`, `docs/BUGS.md`, `docs/HISTORY.md` in each project:
+Project workflow, all user-invoked (`/<name>` or `/zaha:<name>`; `bug` and `recap` clash with built-in commands, so call them as `/zaha:bug` and `/zaha:recap`), sharing `docs/ROADMAP.md`, `docs/BUGS.md`, `docs/HISTORY.md` in each project:
 
 - **[roadmap](plugins/zaha/skills/roadmap/SKILL.md)**: scaffold or show the project roadmap (milestones + tasks).
 - **[recap](plugins/zaha/skills/recap/SKILL.md)**: log what changed since the last recap, tick finished tasks and fixed bugs, suggest the next step.
