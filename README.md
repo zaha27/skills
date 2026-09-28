@@ -32,10 +32,7 @@ Project workflow, all user-invoked (`/<name>` or `/zaha:<name>`; `bug` and `reca
 - **[planning](plugins/zaha/skills/planning/SKILL.md)**: pick a task or bug (or describe one), get grilled on what's unclear, approve a step-by-step plan, then implement.
 - **[test](plugins/zaha/skills/test/SKILL.md)**: run affected tests (or `all`) with filtered output; pre-existing failures become bugs.
 - **[handoff](plugins/zaha/skills/handoff/SKILL.md)**: before `/clear`, write the session state to `~/.claude/handoffs/<repo>.md` so a fresh session can continue.
-
-### Personal skills
-
-- **[what](skills/what/SKILL.md)**: `/what` re-explains the last message in plain words when it didn't land.
+- **[what](plugins/zaha/skills/what/SKILL.md)**: re-explain the last message in plain words when it didn't land.
 
 ## Layout
 
