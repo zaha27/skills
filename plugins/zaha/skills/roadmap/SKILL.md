@@ -9,9 +9,11 @@ disable-model-invocation: true
 
 The roadmap lives in `docs/ROADMAP.md`. Sibling files: `docs/BUGS.md` (owned by `/bug`), `docs/HISTORY.md` (owned by `/recap`). Task IDs are `M<n>.<k>`, bug IDs `B-<nnn>`; never renumber or reuse an ID.
 
+**First, find an existing roadmap**: `docs/ROADMAP.md`, else `ROADMAP.md` at the root. If one exists, it is the roadmap: never create a second one. Keep its format exactly (layout, language, markers, IDs) instead of the format below; run `grep -rlI ROADMAP --exclude-dir={node_modules,.git}` and if code reads it, check that your edits still match what that code parses.
+
 Pick the mode:
 
-- **No `docs/ROADMAP.md`** → Scaffold.
+- **No roadmap found** → Scaffold.
 - **File exists, no arguments** → Status.
 - **File exists, arguments given** → Change.
 
@@ -31,13 +33,13 @@ Pick the mode:
 
 ## Status
 
-Read `docs/ROADMAP.md`, plus open bugs in `docs/BUGS.md` if it exists. Reply in at most 8 lines:
+Read the roadmap, plus open bugs in `docs/BUGS.md` if it exists. Reply in at most 8 lines:
 
 ```
 M2 · Auth: 2/3 done
 Next: M2.3 Add password reset, then M3.1 Stripe checkout for one plan
 Open bugs on M2: B-004 [high]
-Suggested: /planning M2.3
+Suggested: /zaha:planning M2.3
 ```
 
 Don't edit the file in this mode.

@@ -1,6 +1,9 @@
 # skills
 
-My personal Claude Code skills. `install.sh` symlinks each `skills/<name>/` into `~/.claude/skills/`, so edits here are live.
+My Claude Code skills, shipped two ways:
+
+- `plugins/zaha/`: the public `zaha` plugin, listed in `.claude-plugin/marketplace.json` (marketplace `zaha-skills`). Skills are invoked as `/zaha:<name>`.
+- `skills/`: personal, unpublished skills. `install.sh` symlinks each into `~/.claude/skills/`.
 
 ## Writing a SKILL.md
 
@@ -21,14 +24,14 @@ My personal Claude Code skills. `install.sh` symlinks each `skills/<name>/` into
 | `docs/BUGS.md` | `/bug` |
 | `docs/HISTORY.md` | `/recap` |
 
-The owner skill creates the file; every other skill follows the file as it finds it. IDs: tasks `M<n>.<k>`, bugs `B-<nnn>`; never renumbered or reused.
+These skills live in `plugins/zaha/skills/`. The owner skill creates the file; every other skill follows the file as it finds it. If the project already has an equivalent file (e.g. `ROADMAP.md` at the root), use it and keep its format; never create a second one. IDs: tasks `M<n>.<k>`, bugs `B-<nnn>`; never renumbered or reused.
 
 Loop: `/roadmap` → `/planning` → implement → `/test` → `/bug` → `/recap` → `/planning` …
 
 ## Adding a skill
 
-1. Create `skills/<name>/SKILL.md`, run `./install.sh`.
-2. Try it on a real project.
-3. Add it to the list in `README.md`, commit `feat(skill): <name>`.
+- **Plugin skill:** create `plugins/zaha/skills/<name>/SKILL.md`, try it with `claude --plugin-dir plugins/zaha` in a real project, bump `version` in `plugins/zaha/.claude-plugin/plugin.json`, run `claude plugin validate . --strict`.
+- **Personal skill:** create `skills/<name>/SKILL.md`, run `./install.sh`.
+- Then add it to `README.md` and commit `feat(skill): <name>`.
 
 Credit: the grilling step in `/planning` is adapted from [mattpocock/skills](https://github.com/mattpocock/skills) (MIT).

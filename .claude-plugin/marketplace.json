@@ -1,5 +1,12 @@
 {
   "name": "zaha-skills",
   "owner": { "name": "zaha27" },
-  "plugins": []
+  "metadata": { "description": "zaha27's Claude Code plugins." },
+  "plugins": [
+    {
+      "name": "zaha",
+      "source": "./plugins/zaha",
+      "description": "Project workflow skills: roadmap, recap, bug tracking, planning and tests."
+    }
+  ]
 }

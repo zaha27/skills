@@ -1,0 +1,8 @@
+{
+  "name": "zaha",
+  "version": "0.1.0",
+  "description": "Project workflow skills: roadmap, recap, bug tracking, planning and tests, sharing docs/ROADMAP.md, docs/BUGS.md and docs/HISTORY.md.",
+  "author": { "name": "zaha27" },
+  "repository": "https://github.com/zaha27/skills",
+  "keywords": ["workflow", "roadmap", "planning", "bugs", "recap"]
+}

@@ -4,7 +4,14 @@ My Claude Code skills and plugins, shared across machines.
 
 ## Install
 
-**Skills** (cloned repo, symlinked into `~/.claude/skills/`):
+**`zaha` plugin** (no clone needed), in Claude Code:
+
+```
+/plugin marketplace add zaha27/skills
+/plugin install zaha@zaha-skills
+```
+
+**Personal skills** (cloned repo, symlinked into `~/.claude/skills/`):
 
 ```sh
 git clone https://github.com/zaha27/skills ~/Documents/GitHub/skills
@@ -13,18 +20,13 @@ git clone https://github.com/zaha27/skills ~/Documents/GitHub/skills
 
 On my Mac, [dotfiles](https://github.com/zaha27/dotfiles)' `install.sh` does this for me.
 
-**Plugins** (no clone needed), in Claude Code:
-
-```
-/plugin marketplace add zaha27/skills
-/plugin install <name>@zaha-skills
-```
-
 ## Skills
 
-Workflow (user-invoked, share `docs/ROADMAP.md`, `docs/BUGS.md`, `docs/HISTORY.md` in each project):
+### `zaha` plugin
 
-- **[roadmap](skills/roadmap/SKILL.md)**: scaffold or show the project roadmap (milestones + tasks).
+Project workflow, all user-invoked (`/zaha:<name>`), sharing `docs/ROADMAP.md`, `docs/BUGS.md`, `docs/HISTORY.md` in each project:
+
+- **[roadmap](plugins/zaha/skills/roadmap/SKILL.md)**: scaffold or show the project roadmap (milestones + tasks).
 
 ## Layout
 
