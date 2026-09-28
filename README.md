@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/logo.jpg" alt=">_z" width="360"></p>
+
 # skills
 
 My Claude Code skills and plugins, shared across machines.
