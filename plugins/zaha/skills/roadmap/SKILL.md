@@ -7,7 +7,7 @@ disable-model-invocation: true
 
 # Roadmap
 
-The roadmap lives in `docs/ROADMAP.md`. Sibling files: `docs/BUGS.md` (owned by `/bug`), `docs/HISTORY.md` (owned by `/recap`). Task IDs are `M<n>.<k>`, bug IDs `B-<nnn>`; never renumber or reuse an ID.
+The roadmap lives in `docs/ROADMAP.md`. Sibling files: `docs/BUGS.md` (owned by `/zaha:bug`), `docs/HISTORY.md` (owned by `/zaha:recap`). Task IDs are `M<n>.<k>`, bug IDs `B-<nnn>`; never renumber or reuse an ID.
 
 **First, find an existing roadmap**: `docs/ROADMAP.md`, else `ROADMAP.md` at the root. If one exists, it is the roadmap: never create a second one. Keep its format exactly (layout, language, markers, IDs) instead of the format below; run `grep -rlI ROADMAP --exclude-dir={node_modules,.git}` and if code reads it, check that your edits still match what that code parses.
 

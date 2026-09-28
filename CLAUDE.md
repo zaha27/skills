@@ -26,7 +26,7 @@ My Claude Code skills, shipped two ways:
 
 These skills live in `plugins/zaha/skills/`. The owner skill creates the file; every other skill follows the file as it finds it. If the project already has an equivalent file (e.g. `ROADMAP.md` at the root), use it and keep its format; never create a second one. IDs: tasks `M<n>.<k>`, bugs `B-<nnn>`; never renumbered or reused.
 
-Loop: `/roadmap` → `/planning` → implement → `/test` → `/bug` → `/recap` → `/planning` …
+Loop (all `/zaha:<name>`): `roadmap` → `planning` → implement → `test` → `bug` → `recap` → `planning` …
 
 ## Adding a skill
 
