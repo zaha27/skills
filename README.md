@@ -32,6 +32,10 @@ Project workflow, all user-invoked (`/zaha:<name>`), sharing `docs/ROADMAP.md`, 
 - **[planning](plugins/zaha/skills/planning/SKILL.md)**: pick a task or bug (or describe one), get grilled on what's unclear, approve a step-by-step plan, then implement.
 - **[test](plugins/zaha/skills/test/SKILL.md)**: run affected tests (or `all`) with filtered output; pre-existing failures become bugs.
 
+### Personal skills
+
+- **[what](skills/what/SKILL.md)**: `/what` re-explains the last message in plain words when it didn't land.
+
 ## Layout
 
 | Path | What |
