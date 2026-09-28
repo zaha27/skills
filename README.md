@@ -44,3 +44,7 @@ Project workflow, all user-invoked (`/zaha:<name>`), sharing `docs/ROADMAP.md`, 
   add `{ "name": "<name>", "source": "./plugins/<name>" }` to `.claude-plugin/marketplace.json`,
   run `claude plugin validate .`, push, then `/plugin marketplace update zaha-skills`
   and `/plugin install <name>@zaha-skills`.
+
+## License
+
+MIT, see [LICENSE](LICENSE).

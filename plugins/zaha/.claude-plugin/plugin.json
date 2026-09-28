@@ -1,8 +1,10 @@
 {
   "name": "zaha",
-  "version": "0.1.0",
-  "description": "Project workflow skills: roadmap, recap, bug tracking, planning and tests, sharing docs/ROADMAP.md, docs/BUGS.md and docs/HISTORY.md.",
-  "author": { "name": "zaha27" },
+  "version": "0.1.1",
+  "description": "Roadmap-driven project workflow: keep milestones, bugs and history in plain Markdown next to your code, and plan the next step from them.",
+  "author": { "name": "Zaharia Andrei", "url": "https://github.com/zaha27" },
+  "homepage": "https://github.com/zaha27/skills",
   "repository": "https://github.com/zaha27/skills",
+  "license": "MIT",
   "keywords": ["workflow", "roadmap", "planning", "bugs", "recap"]
 }

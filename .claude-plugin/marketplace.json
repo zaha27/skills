@@ -1,12 +1,18 @@
 {
   "name": "zaha-skills",
-  "owner": { "name": "zaha27" },
-  "metadata": { "description": "zaha27's Claude Code plugins." },
+  "owner": {
+    "name": "Zaharia Andrei",
+    "url": "https://github.com/zaha27"
+  },
+  "metadata": {
+    "description": "zaha27's Claude Code plugins."
+  },
   "plugins": [
     {
       "name": "zaha",
       "source": "./plugins/zaha",
-      "description": "Project workflow skills: roadmap, recap, bug tracking, planning and tests."
+      "description": "Roadmap-driven project workflow: milestones, bugs and history in plain Markdown, and planning from them.",
+      "category": "productivity"
     }
   ]
 }
