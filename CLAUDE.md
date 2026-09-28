@@ -35,4 +35,4 @@ Loop (all `/zaha:<name>`): `roadmap` → `planning` → implement → `test` →
 - Then add it to `README.md` and commit `feat(skill): <name>`.
 - After a plugin version bump is pushed: `gh release create v<version> --generate-notes` so GitHub releases match `plugin.json`.
 
-Credit: the grilling step in `/planning` is adapted from [mattpocock/skills](https://github.com/mattpocock/skills) (MIT).
+Credit: the grilling step in `/planning`, `handoff` and `what` are adapted from [mattpocock/skills](https://github.com/mattpocock/skills) (MIT).

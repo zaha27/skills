@@ -31,6 +31,7 @@ Project workflow, all user-invoked (`/zaha:<name>`), sharing `docs/ROADMAP.md`, 
 - **[bug](plugins/zaha/skills/bug/SKILL.md)**: log a bug with ID, severity and milestone, without fixing it; `list` shows open bugs.
 - **[planning](plugins/zaha/skills/planning/SKILL.md)**: pick a task or bug (or describe one), get grilled on what's unclear, approve a step-by-step plan, then implement.
 - **[test](plugins/zaha/skills/test/SKILL.md)**: run affected tests (or `all`) with filtered output; pre-existing failures become bugs.
+- **[handoff](plugins/zaha/skills/handoff/SKILL.md)**: before `/clear`, write the session state to `~/.claude/handoffs/<repo>.md` so a fresh session can continue.
 
 ### Personal skills
 
