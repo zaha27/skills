@@ -32,6 +32,7 @@ Project workflow, all user-invoked (`/zaha:<name>`), sharing `docs/ROADMAP.md`, 
 - **[recap](plugins/zaha/skills/recap/SKILL.md)**: log what changed since the last recap, tick finished tasks and fixed bugs, suggest the next step.
 - **[bug](plugins/zaha/skills/bug/SKILL.md)**: log a bug with ID, severity and milestone, without fixing it; `list` shows open bugs.
 - **[planning](plugins/zaha/skills/planning/SKILL.md)**: pick a task or bug (or describe one), get grilled on what's unclear, approve a step-by-step plan, then implement.
+- **[test](plugins/zaha/skills/test/SKILL.md)**: run affected tests (or `all`) with filtered output; pre-existing failures become bugs.
 
 ## Layout
 
