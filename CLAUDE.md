@@ -33,5 +33,6 @@ Loop (all `/zaha:<name>`): `roadmap` → `planning` → implement → `test` →
 - **Plugin skill:** create `plugins/zaha/skills/<name>/SKILL.md`, try it with `claude --plugin-dir plugins/zaha` in a real project, bump `version` in `plugins/zaha/.claude-plugin/plugin.json`, run `claude plugin validate . --strict`.
 - **Personal skill:** create `skills/<name>/SKILL.md`, run `./install.sh`.
 - Then add it to `README.md` and commit `feat(skill): <name>`.
+- After a plugin version bump is pushed: `gh release create v<version> --generate-notes` so GitHub releases match `plugin.json`.
 
 Credit: the grilling step in `/planning` is adapted from [mattpocock/skills](https://github.com/mattpocock/skills) (MIT).
