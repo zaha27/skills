@@ -20,6 +20,12 @@ On my Mac, [dotfiles](https://github.com/zaha27/dotfiles)' `install.sh` does thi
 /plugin install <name>@zaha-skills
 ```
 
+## Skills
+
+Workflow (user-invoked, share `docs/ROADMAP.md`, `docs/BUGS.md`, `docs/HISTORY.md` in each project):
+
+- **[roadmap](skills/roadmap/SKILL.md)**: scaffold or show the project roadmap (milestones + tasks).
+
 ## Layout
 
 | Path | What |
